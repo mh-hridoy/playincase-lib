@@ -1,6 +1,6 @@
 import { Response, Request, NextFunction } from "express"
 
-export interface Errors extends Error {
+interface Errors extends Error {
   statusCode?: number
   status?: string
   code? : number

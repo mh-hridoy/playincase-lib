@@ -1,5 +1,8 @@
-function contentHtml(email : string, title : string, message : string, typeCategory : string, downloadLink : string) {
-  return `
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.contentHtml = void 0;
+function contentHtml(email, title, message, typeCategory, downloadLink) {
+    return `
   <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 <head>
@@ -115,16 +118,14 @@ table, td { color: #000000; } #u_body a { color: #0000ee; text-decoration: under
   <tr>
     <td style="padding-right: 0px;padding-left: 0px;" align="center">
       
-      <img align="center" border="0" src=${
-        (typeCategory == "anniversary" &&
-          "https://playincase-public.s3.amazonaws.com/extras/anniversary.jpeg") ||
+      <img align="center" border="0" src=${(typeCategory == "anniversary" &&
+        "https://playincase-public.s3.amazonaws.com/extras/anniversary.jpeg") ||
         (typeCategory == "birthday" &&
-          "https://playincase-public.s3.amazonaws.com/extras/birthday.jpeg") ||
+            "https://playincase-public.s3.amazonaws.com/extras/birthday.jpeg") ||
         (typeCategory == "message" &&
-          "https://playincase-public.s3.amazonaws.com/extras/message.jpeg") ||
-          (typeCategory == "playincase" &&
-          "https://playincase-public.s3.amazonaws.com/extras/playincase.jpeg")
-      } alt="image" title="image" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 65%;max-width: 390px;" width="390" class="v-src-width v-src-max-width"/>
+            "https://playincase-public.s3.amazonaws.com/extras/message.jpeg") ||
+        (typeCategory == "playincase" &&
+            "https://playincase-public.s3.amazonaws.com/extras/playincase.jpeg")} alt="image" title="image" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 65%;max-width: 390px;" width="390" class="v-src-width v-src-max-width"/>
       
     </td>
   </tr>
@@ -277,9 +278,6 @@ table, td { color: #000000; } #u_body a { color: #0000ee; text-decoration: under
 
 </html>
   
-  `
+  `;
 }
-
-module.exports = {
-  contentHtml,
-}
+exports.contentHtml = contentHtml;

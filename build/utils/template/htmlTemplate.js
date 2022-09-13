@@ -1,5 +1,8 @@
-function html(verifiedCode : any) {
-  return `
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.html = void 0;
+function html(verifiedCode) {
+    return `
   <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 
@@ -468,9 +471,6 @@ function html(verifiedCode : any) {
 </body>
 
 </html>
-  `
+  `;
 }
-
-module.exports = {
-  html,
-}
+exports.html = html;
