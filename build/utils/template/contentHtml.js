@@ -1,5 +1,7 @@
 "use strict";
-function contentHtml(email, title, message, typeCategory, downloadLink) {
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.contentHtml = void 0;
+const contentHtml = (email, title, message, typeCategory, downloadLink) => {
     return `
   <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
@@ -277,7 +279,8 @@ table, td { color: #000000; } #u_body a { color: #0000ee; text-decoration: under
 </html>
   
   `;
-}
+};
+exports.contentHtml = contentHtml;
 module.exports = {
-    contentHtml,
+    contentHtml: exports.contentHtml,
 };

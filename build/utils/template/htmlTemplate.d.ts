@@ -1,1 +1,1 @@
-declare function html(verifiedCode: any): string;
+export declare const html: (verifiedCode: any) => string;

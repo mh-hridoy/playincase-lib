@@ -18,4 +18,6 @@ __exportStar(require("./errors/customErrorHandler"), exports);
 __exportStar(require("./middlewares/protectedRoute"), exports);
 __exportStar(require("./utils/connection/awsConnection"), exports);
 __exportStar(require("./utils/connection/dbConnection"), exports);
-//removed unused files
+__exportStar(require("./utils/template/contentHtml"), exports);
+__exportStar(require("./utils/template/htmlTemplate"), exports);
+__exportStar(require("./errors/MainErrorHandler"), exports);
