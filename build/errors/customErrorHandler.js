@@ -10,4 +10,3 @@ class Errorhandler extends Error {
     }
 }
 exports.Errorhandler = Errorhandler;
-module.exports = Errorhandler;
