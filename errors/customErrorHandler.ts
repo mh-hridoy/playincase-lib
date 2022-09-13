@@ -12,4 +12,3 @@ export class Errorhandler extends Error {
   }
 }
 
-module.exports = Errorhandler
