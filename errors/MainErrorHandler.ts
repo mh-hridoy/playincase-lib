@@ -7,7 +7,7 @@ export interface Errors extends Error {
 }
 
 
-module.exports = (
+export const MainErrorHandler = (
   err: Errors,
   req: Request,
   res: Response,

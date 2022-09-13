@@ -1,6 +1,6 @@
 import  mongoose from"mongoose"
 const URI = process.env.MONGO_URI!
-module.exports = () => {
+export const dbConnection = () => {
   mongoose.connect(
     URI,
     (err) => {
