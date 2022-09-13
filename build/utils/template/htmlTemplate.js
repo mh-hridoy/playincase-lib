@@ -1,6 +1,4 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.html = void 0;
 function html(verifiedCode) {
     return `
   <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -473,4 +471,6 @@ function html(verifiedCode) {
 </html>
   `;
 }
-exports.html = html;
+module.exports = {
+    html,
+};
