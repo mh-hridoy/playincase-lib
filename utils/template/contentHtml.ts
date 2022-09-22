@@ -1,4 +1,10 @@
-export const  contentHtml = (email : string, title : string, message : string, typeCategory : string, downloadLink : string) => {
+export const contentHtml = (
+  email: string,
+  title: string,
+  message: string,
+  typeCategory: string,
+  downloadLink: string
+) => {
   return `
   <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
@@ -122,7 +128,7 @@ table, td { color: #000000; } #u_body a { color: #0000ee; text-decoration: under
           "https://playincase-public.s3.amazonaws.com/extras/birthday.jpeg") ||
         (typeCategory == "message" &&
           "https://playincase-public.s3.amazonaws.com/extras/message.jpeg") ||
-          (typeCategory == "playincase" &&
+        (typeCategory == "playincase" &&
           "https://playincase-public.s3.amazonaws.com/extras/playincase.jpeg")
       } alt="image" title="image" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 65%;max-width: 390px;" width="390" class="v-src-width v-src-max-width"/>
       
@@ -181,6 +187,8 @@ table, td { color: #000000; } #u_body a { color: #0000ee; text-decoration: under
   <tbody>
     <tr>
       <td class="v-container-padding-padding" style="overflow-wrap:break-word;word-break:break-word;padding:10px 10px 40px;font-family:arial,helvetica,sans-serif;" align="left">
+
+    
         
 <div align="center">
     <a href=${downloadLink} target="_blank" class="v-size-width" style="box-sizing: border-box;display: inline-block;font-family:arial,helvetica,sans-serif;text-decoration: none;-webkit-text-size-adjust: none;text-align: center;color: #FFFFFF; background-color: #ef3f42; border-radius: 4px;-webkit-border-radius: 4px; -moz-border-radius: 4px; width:30%; max-width:100%; overflow-wrap: break-word; word-break: break-word; word-wrap:break-word; mso-border-alt: none;">
