@@ -121,16 +121,7 @@ table, td { color: #000000; } #u_body a { color: #0000ee; text-decoration: under
   <tr>
     <td style="padding-right: 0px;padding-left: 0px;" align="center">
       
-      <img align="center" border="0" src=${
-        (typeCategory == "anniversary" &&
-          "https://playincase-public.s3.amazonaws.com/extras/anniversary.jpeg") ||
-        (typeCategory == "birthday" &&
-          "https://playincase-public.s3.amazonaws.com/extras/birthday.jpeg") ||
-        (typeCategory == "message" &&
-          "https://playincase-public.s3.amazonaws.com/extras/message.jpeg") ||
-        (typeCategory == "playincase" &&
-          "https://playincase-public.s3.amazonaws.com/extras/playincase.jpeg")
-      } alt="image" title="image" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 65%;max-width: 390px;" width="390" class="v-src-width v-src-max-width"/>
+      <img align="center" border="0" src="https://playincase-public.s3.amazonaws.com/extras/photo_2022-09-22_23-53-36.jpg" alt="image" title="image" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 65%;max-width: 390px;" width="390" class="v-src-width v-src-max-width"/>
       
     </td>
   </tr>
