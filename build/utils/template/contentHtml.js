@@ -118,14 +118,7 @@ table, td { color: #000000; } #u_body a { color: #0000ee; text-decoration: under
   <tr>
     <td style="padding-right: 0px;padding-left: 0px;" align="center">
       
-      <img align="center" border="0" src=${(typeCategory == "anniversary" &&
-        "https://playincase-public.s3.amazonaws.com/extras/anniversary.jpeg") ||
-        (typeCategory == "birthday" &&
-            "https://playincase-public.s3.amazonaws.com/extras/birthday.jpeg") ||
-        (typeCategory == "message" &&
-            "https://playincase-public.s3.amazonaws.com/extras/message.jpeg") ||
-        (typeCategory == "playincase" &&
-            "https://playincase-public.s3.amazonaws.com/extras/playincase.jpeg")} alt="image" title="image" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 65%;max-width: 390px;" width="390" class="v-src-width v-src-max-width"/>
+    <div style="background-image: url(https://playincase-public.s3.amazonaws.com/extras/photo_2022-09-22_23-53-36.jpg);width:500px;height:500px;background-position: center;background-repeat: no-repeat;background-size: cover;"></div>
       
     </td>
   </tr>
@@ -182,6 +175,8 @@ table, td { color: #000000; } #u_body a { color: #0000ee; text-decoration: under
   <tbody>
     <tr>
       <td class="v-container-padding-padding" style="overflow-wrap:break-word;word-break:break-word;padding:10px 10px 40px;font-family:arial,helvetica,sans-serif;" align="left">
+
+    
         
 <div align="center">
     <a href=${downloadLink} target="_blank" class="v-size-width" style="box-sizing: border-box;display: inline-block;font-family:arial,helvetica,sans-serif;text-decoration: none;-webkit-text-size-adjust: none;text-align: center;color: #FFFFFF; background-color: #ef3f42; border-radius: 4px;-webkit-border-radius: 4px; -moz-border-radius: 4px; width:30%; max-width:100%; overflow-wrap: break-word; word-break: break-word; word-wrap:break-word; mso-border-alt: none;">
