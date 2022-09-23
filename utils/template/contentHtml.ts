@@ -121,7 +121,7 @@ table, td { color: #000000; } #u_body a { color: #0000ee; text-decoration: under
   <tr>
     <td style="padding-right: 0px;padding-left: 0px;" align="center">
       
-      <img align="center" border="0" src="https://playincase-public.s3.amazonaws.com/extras/photo_2022-09-22_23-53-36.jpg" alt="image" title="image" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 65%;max-width: 390px;" width="390" class="v-src-width v-src-max-width"/>
+    <div style="background-image: url(https://playincase-public.s3.amazonaws.com/extras/photo_2022-09-22_23-53-36.jpg);width:500px;height:500px;background-position: center;background-repeat: no-repeat;background-size: cover;"></div>
       
     </td>
   </tr>
