@@ -176,11 +176,15 @@ table, td { color: #000000; } #u_body a { color: #0000ee; text-decoration: under
     <tr>
       <td class="v-container-padding-padding" style="overflow-wrap:break-word;word-break:break-word;padding:10px 10px 40px;font-family:arial,helvetica,sans-serif;" align="left">
 
+
+       <div class="v-line-height" style="line-height: 170%; text-align: center; word-wrap: break-word;">
+    <p style="font-size: 14px; line-height: 170%;">Please download the app if you don't have it installed and login/signup with this email to view the message.</p>
+  </div>
     
         
 <div align="center">
-    <a href=${downloadLink} target="_blank" class="v-size-width" style="box-sizing: border-box;display: inline-block;font-family:arial,helvetica,sans-serif;text-decoration: none;-webkit-text-size-adjust: none;text-align: center;color: #FFFFFF; background-color: #ef3f42; border-radius: 4px;-webkit-border-radius: 4px; -moz-border-radius: 4px; width:30%; max-width:100%; overflow-wrap: break-word; word-break: break-word; word-wrap:break-word; mso-border-alt: none;">
-      <span class="v-line-height v-padding" style="display:block;padding:10px 20px;line-height:120%;"><p style="font-size: 14px; line-height: 120%;"><span style="font-size: 14px; line-height: 16.8px;">Download Now</span></p></span>
+    <a href=${'https://play.google.com/store/apps/details?id=com.hridoymahmud.playincase&hl=en_IN'} target="_blank" class="v-size-width" style="box-sizing: border-box;display: inline-block;font-family:arial,helvetica,sans-serif;text-decoration: none;-webkit-text-size-adjust: none;text-align: center;color: #FFFFFF; background-color: #ef3f42; border-radius: 4px;-webkit-border-radius: 4px; -moz-border-radius: 4px; width:30%; max-width:100%; overflow-wrap: break-word; word-break: break-word; word-wrap:break-word; mso-border-alt: none;">
+      <span class="v-line-height v-padding" style="display:block;padding:10px 20px;line-height:120%;"><p style="font-size: 14px; line-height: 120%;"><span style="font-size: 14px; line-height: 16.8px;">Download app</span></p></span>
     </a>
 </div>
 
