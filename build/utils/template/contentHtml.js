@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.contentHtml = void 0;
-const contentHtml = (email, title, message, typeCategory, downloadLink) => {
+const contentHtml = (email, title, message, typeCategory, downloadLink, count, totalMb) => {
     return `<!DOCTYPE html>
   <html lang="en">
   <head>
@@ -123,11 +123,12 @@ const contentHtml = (email, title, message, typeCategory, downloadLink) => {
           <h1 class="email_title">
           ${email}
           </h1>
-          <h2>Sent you image.png</h2>
+          <h2>Sent you a message</h2>
+          <p>${count} items, ${totalMb}MB in total.</p>
           <div class="email_content">
-              <img src=${downloadLink} alt="Email Images">
+              <img style="max-widht : 80px; image-fit: cover" src=${downloadLink} alt="Email Images">
               <div>
-                 <p>
+                 <p style="max-width : 150px; overflow-wrap: break-word; word-wrap: break-word; hyphens: auto; " >
                  ${message}
                  </p>
               </div>
